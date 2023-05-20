@@ -1,15 +1,38 @@
 {
-  "name": "gitbook-plugin-collapsible-chapters",
-  "description": "Collapsable chapters for convenient navigation within a gitbook",
+  "name": "gitbook-plugin-chollapse",
+  "description": "Collapsible chapters for GitBook/HonKit",
   "main": "index.js",
-  "version": "0.1.8",
+  "version": "1.0.1",
   "engines": {
-    "gitbook": ">=0.4.6"
+    "gitbook": ">=2.5.0"
   },
-  "homepage": "https://github.com/vihanb/gitbook-plugin-collapsible-chapters",
+  "bugs": {
+    "url": "https://github.com/quacksouls/gitbook-plugin-chollapse/issues"
+  },
+  "homepage": "https://github.com/quacksouls/gitbook-plugin-chollapse",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vihanb/gitbook-plugin-collapsible-chapters"
+    "url": "git+https://github.com/quacksouls/gitbook-plugin-chollapse.git"
   },
-  "license": "Apache 2"
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GitBook",
+    "HonKit"
+  ],
+  "authors": [
+    {
+      "name": "Anton Seliukh "
+    },
+    {
+      "name": "Vihan Bhargava",
+      "email": "vihan+github@vihan.org"
+    },
+    {
+      "name": "Duck McSouls",
+      "email": "quacksouls [AT] gmail [DOT] com"
+    }
+  ]
 }

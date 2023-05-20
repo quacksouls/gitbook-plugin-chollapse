@@ -1,12 +1,12 @@
 module.exports = {
     // Extend website resources and html
     website: {
-        assets: "./book",
+        assets: "./assets",
         js: [
-            "collapsible-chapters.js"
+            "plugin.js"
         ],
         css: [
-            "collapsible-chapters.css"
+            "plugin.css"
         ]
     }
 };

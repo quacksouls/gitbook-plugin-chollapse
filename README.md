@@ -1,12 +1,12 @@
-## gitbook-plugin-chollapse
+# gitbook-plugin-chollapse
 
 Collapsible chapters for GitBook/HonKit.
 
-This is a fork of [`gitbook-plugin-collapsible-chapters`](https://github.com/vihanb/gitbook-plugin-collapsible-chapters).
+This is a fork of [`gitbook-plugin-collapsible-chapters`](https://github.com/vihanb/gitbook-plugin-collapsible-chapters) to support HonKit.
 
 Adds an icon to each chapter to allow the chapter to collapse/expand.
 
-### Installation
+## Installation
 
 Install via npm:
 
@@ -14,7 +14,7 @@ Install via npm:
 npm install gitbook-plugin-chollapse --save-dev
 ```
 
-### Usage
+## Usage
 
 Add this to your `book.json`:
 
@@ -24,7 +24,7 @@ Add this to your `book.json`:
 }
 ```
 
-### See also
+## See also
 
 Maybe you will find
 [`gitbook-plugin-toggle-chapters`](https://github.com/poojan/gitbook-plugin-toggle-chapters)
